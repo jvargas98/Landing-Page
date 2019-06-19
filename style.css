@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+iframe {
+    width: 100%;
+    height: 600px;
+}
+
+h1, h2, h3, h4, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+p{
+  font-size: 20px  
+}
+
+a{
+    font-size: 20px;
+}
+
+#section1 {
+    height: 100%;
+}
+
+#section2 {
+    height: 100%;
+    background-color: white;
+}
+
+#section3 {
+    height: 100%;
+}
+#section4{
+    height: 100%;
+}
+
+.services {
+    position: relative;
+    top: 10%;
+}
+
+.logo{
+    position: relative;
+    left: 10%;
+}
+
+.ul-pos{
+   margin-left: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+  .ul-pos { 
+     margin-right: 100px;
+  } 
+}
+ 
+@media only screen and (max-width:767px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+    #section2 {
+        height: auto;
+    }
+    #section3 {
+        height: auto;
+    }
+    #section4 {
+        height: auto;
+    }
+}
